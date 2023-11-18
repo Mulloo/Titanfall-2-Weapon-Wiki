@@ -1,0 +1,12 @@
+.text-center {
+    text-align: center;
+}
+/* hero image styles */
+body {
+    background-image: url("../images/heroimage.jpg");
+
+}
+/* navbar styles */
+#nav-bar {
+    list-style-type: none;
+}
