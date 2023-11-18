@@ -1,12 +1,35 @@
+#header h1 {
+    color:black;
+}
+
+#header div {
+    display: flex;
+    width: 100%;
+    color: black;
+    height: 10%;
+}
+
 .text-center {
     text-align: center;
 }
 /* hero image styles */
-body {
-    background-image: url("../images/heroimage.jpg");
-
+#hero{
+    background-image:url("../images/heroimage.jpg");
+    width: 100%;
+    position: relative;
+    height: 1080px;
+    
 }
 /* navbar styles */
 #nav-bar {
     list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    z-index: 99;
 }
+
+#nav-bar li>a {
+    color: #000000;
+}
+
