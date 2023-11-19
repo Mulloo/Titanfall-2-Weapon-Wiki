@@ -1,12 +1,5 @@
-#header h1 {
-    color:black;
-}
-
-#header div {
-    display: flex;
-    width: 100%;
-    color: black;
-    height: 10%;
+header h1 {
+    color:rgb(0, 0, 0);
 }
 
 .text-center {
@@ -35,3 +28,4 @@
     color: #000000;
 }
 
+/* Media query for phone devices nav-bar */
