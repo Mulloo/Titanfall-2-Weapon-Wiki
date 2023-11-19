@@ -18,6 +18,8 @@
     width: 100%;
     position: relative;
     height: 1080px;
+    background-size: cover;
+    background-position: center;
     
 }
 /* navbar styles */
