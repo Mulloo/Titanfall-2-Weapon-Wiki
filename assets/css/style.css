@@ -1,5 +1,5 @@
 header h1 {
-    color:rgb(0, 0, 0);
+    color:#000000;   
 }
 
 .text-center {
@@ -22,7 +22,6 @@ header h1 {
     flex-direction: row;
     justify-content: space-around;
     z-index: 99;
-
 }
 
 #nav-bar li>a {
