@@ -1,5 +1,8 @@
 header h1 {
-    color:#000000;   
+    color:#000000;
+    position: absolute;
+    z-index: 99;
+    top: 5px; /* TODO: need to fix for responsive */
 }
 
 .text-center {
@@ -13,15 +16,18 @@ header h1 {
     height: 1080px;
     background-size: cover;
     background-position: center;
-    
 }
 /* navbar styles */
 #nav-bar {
+    position: absolute;
     list-style-type: none;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     z-index: 99;
+    top: 50px; /* TODO: need to fix for responsive */
+
+
 }
 
 #nav-bar li>a {
