@@ -137,5 +137,26 @@ footer {
 /* Media query for phone devices nav-bar 576px and up*/
 @media screen and (min-width:576px) {}
 
-/* Media query for tablets and larger 768px and up */
-@media screen and (min-width:678px) {}
+/* Media query for tablets and larger 850px and up (850 because nav links cover h1 header) */
+@media screen and (min-width:768px) {
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    .nav-bar {
+        display: flex;
+    }
+
+    .nav-bar>li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+}
