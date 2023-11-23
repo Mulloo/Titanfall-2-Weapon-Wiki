@@ -1,46 +1,122 @@
-header h1 {
-    color:#000000;
-    position: absolute;
-    z-index: 99;
-    top: 5px; /* TODO: need to fix for responsive */
+/* TODO: import google fonts */
+
+/* WILDCARD SELECTOR */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+
+/* General styles */
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #252525;
+
+}
+
+
+*/ .hidden-heading {
+    /* TODO: for any hidden heading elements */
+    display: none;
+}
+
+header {
+    background-color: #000000;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header h1 {
+    color: #ffffff;
+    position: relative;
+    z-index: 99;
+    display: flex;
+    left: 40%;
+    /* TODO: need to fix for responsive */
+}
+
+
+/* nav styles and dropdown */
+nav {
+    position: absolute;
+    background-color: #000000;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #252525;
+    display: none;
+    top: 100%;
+    z-index: 99;
+}
+
+nav ul>li {
+    list-style-type: none;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
+#nav-bar li>a {
+    color: #ffffff;
+}
+
 
 .text-center {
     text-align: center;
 }
+
 /* hero image styles */
-#hero{
-    background-image:url("../images/heroimage.jpg");
+#hero {
+    background-color: #000000;
+    background-image: url("../images/heroimage.jpg");
     width: 100%;
-    position: relative;
+    position: absolute;
     height: 1080px;
     background-size: cover;
     background-position: center;
+    margin-top: 0;
+
 }
-/* navbar styles */
-#nav-bar {
-    position: absolute;
-    list-style-type: none;
+
+main {
+    flex: 1 0 auto;
+    margin-top: 47px;
+}
+
+
+/* socials styles */
+#social {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    z-index: 99;
-    top: 50px; /* TODO: need to fix for responsive */
-
-
-}
-
-#nav-bar li>a {
-    color: #000000;
 }
 
 
 /* Media query for phone devices nav-bar 576px and up*/
-@media screen and (min-width:576px) {
-
-}
+@media screen and (min-width:576px) {}
 
 /* Media query for tablets and larger 768px and up */
-@media screen and (min-width:678px) {
-
-}
+@media screen and (min-width:678px) {}
