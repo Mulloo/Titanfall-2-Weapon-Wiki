@@ -108,6 +108,16 @@ main {
     flex: 1;
 }
 
+/* title for each page positioning */
+main>h2 {
+    position: relative;
+    z-index: 999;
+    display: flex;
+    margin-top: 460px;
+    /* TODO: make sure is responsive across pages / devices */
+    justify-self: center;
+}
+
 /* socials styles */
 footer {
     background-color: #000000;
@@ -130,6 +140,10 @@ footer {
     text-decoration: none;
     color: #ffffff;
 }
+
+
+/* Pilot page styling */
+
 
 
 /* Media query for phone devices nav-bar 576px and up*/
