@@ -144,17 +144,11 @@ footer {
 
 /* Pilot page styling */
 
-
-.tactical-names ul>p {
-    margin-left: 5%;
-}
-
 .cloak-image {
     display: flex;
     height: 50%;
     width: 50%;
     margin-left: 5%;
-
 }
 
 
@@ -162,8 +156,8 @@ footer {
 /* Media query for phone devices nav-bar 576px and up*/
 @media screen and (min-width:576px) {}
 
-/* Media query for tablets and larger 850px and up (850 because nav links cover h1 header) */
-@media screen and (min-width:850px) {
+/* Media query for tablets and larger 900px and up (900 because nav links cover h1 header) */
+@media screen and (min-width: 900px) {
     nav {
         display: block;
         position: relative;
