@@ -145,6 +145,19 @@ footer {
 /* Pilot page styling */
 
 
+.tactical-names ul>p {
+    margin-left: 5%;
+}
+
+.cloak-image {
+    display: flex;
+    height: 50%;
+    width: 50%;
+    margin-left: 5%;
+
+}
+
+
 
 /* Media query for phone devices nav-bar 576px and up*/
 @media screen and (min-width:576px) {}
