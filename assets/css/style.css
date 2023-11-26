@@ -27,6 +27,7 @@ body {
     display: none;
 }
 
+/* Header */
 header {
     background-color: #000000;
     padding: 0 1rem;
@@ -71,7 +72,7 @@ nav ul>li {
     list-style-type: none;
 }
 
-/* Nav toggle */
+/* nav toggle */
 .nav-toggle:checked~nav {
     display: block;
 }
@@ -104,6 +105,8 @@ nav ul>li {
     background-position: center;
 }
 
+
+/* Main */
 main {
     flex: 1;
 }
@@ -118,7 +121,7 @@ main>h2 {
     justify-self: center;
 }
 
-/* socials styles */
+/* Footer */
 footer {
     background-color: #000000;
     color: white;
@@ -129,6 +132,7 @@ footer {
     width: 100%;
 }
 
+/* socials styles */
 .socials-networks {
     display: flex;
     justify-content: space-evenly;
@@ -149,8 +153,15 @@ footer {
     height: 50%;
     width: 50%;
     margin-left: 5%;
+
 }
 
+.tacticals {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
 
 
 /* Media query for phone devices nav-bar 576px and up*/
