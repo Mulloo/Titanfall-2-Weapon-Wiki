@@ -9,6 +9,15 @@
         "Ronin",
         "Rudge",
         "Stim",
+        "tacticals",
         "Titanfall"
-    ]
+    ],
+    "cSpell.customDictionaries": {
+        "custom-dictionary-workspace": {
+            "name": "custom-dictionary-workspace",
+            "path": "${workspaceFolder:Titanfall-2-Weapon-Wiki}/.cspell/custom-dictionary-workspace.txt",
+            "addWords": true,
+            "scope": "workspace"
+        }
+    }
 }
