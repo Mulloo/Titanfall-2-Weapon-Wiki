@@ -159,9 +159,22 @@ footer {
 
 .tacticals {
     display: flex;
-    align-items: center;
     flex-direction: column;
+    margin-bottom: 20px;
+    list-style-type: none;
+}
 
+.tacticals img {
+    height: 25%;
+    width: 25%;
+}
+
+
+/* Titans page styling */
+
+.titans img {
+    height: 50%;
+    width: 50%;
 }
 
 
