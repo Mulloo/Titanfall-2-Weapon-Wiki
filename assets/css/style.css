@@ -118,8 +118,11 @@ main>h2 {
     z-index: 99;
     display: flex;
     margin-top: 460px;
-    /* TODO: make sure is responsive across pages / devices */
     justify-self: center;
+}
+
+main form {
+    /* TODO: position form elements better names and then email password. flex order */
 }
 
 /* Footer */
