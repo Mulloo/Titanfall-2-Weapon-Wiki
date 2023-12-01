@@ -121,9 +121,30 @@ main>h2 {
     justify-self: center;
 }
 
+/* From */
 main form {
-    /* TODO: position form elements better names and then email password. flex order */
+    /* TODO: test responsively  */
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+
+#f-name,
+#l-name,
+#email,
+#password {
+    width: 250px;
+    height: 25px;
+    margin: 5px 0 20 0;
+    border: 1px solid #000000;
+    border-radius: 2px;
+    padding: 0 5px;
+
+}
+
 
 /* Footer */
 footer {
