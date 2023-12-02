@@ -12,7 +12,7 @@
 
 /* General styles */
 body {
-    background-color: #858585;
+    background-color: #000000;
     width: 100%;
     min-height: 100%;
     display: flex;
@@ -93,6 +93,11 @@ nav ul>li {
 
 .text-center {
     text-align: center;
+}
+
+/* Active nav page */
+.active {
+    border-bottom: 1px solid #ffffff;
 }
 
 /* hero image styles */
