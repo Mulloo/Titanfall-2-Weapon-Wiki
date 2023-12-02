@@ -193,6 +193,21 @@ footer {
     width: 25%;
 }
 
+/* Weapons Page Styling */
+.weapons {
+    margin-bottom: 20px;
+}
+
+.primary-weapon {
+    list-style: none;
+}
+
+.assault-rifles {
+    list-style-type: disc;
+
+
+}
+
 
 /* Titans page styling */
 
