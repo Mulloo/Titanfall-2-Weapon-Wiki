@@ -204,7 +204,14 @@ footer {
 
 .assault-rifles {
     list-style-type: disc;
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
 
+}
+
+.assault-rifles>img {
+    width: 25%;
 
 }
 
