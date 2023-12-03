@@ -18,12 +18,12 @@ h3 {
 
 /* General styles */
 body {
-    background-color: #1B1E20;
+    background-color: #2D3142;
     width: 100%;
     min-height: 100%;
     display: flex;
     flex-direction: column;
-    color: #ffffff;
+    color: #EEE5E9;
     margin-bottom: 100%;
     padding: 0;
 }
@@ -35,7 +35,7 @@ body {
 
 /* Header */
 header {
-    background-color: #000000;
+    background-color: #4F5D75;
     padding: 0 1rem;
     position: fixed;
     z-index: 999;
@@ -64,11 +64,11 @@ header h1 {
 /* nav styles and dropdown */
 nav {
     position: absolute;
-    background-color: #000000;
+    background-color: #4F5D75;
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #252525;
+    box-shadow: 0 2px 2px #000000;
     display: none;
     top: 100%;
     z-index: 999;
@@ -142,21 +142,20 @@ main h3 {
 
 .welcome-div {
     height: 250px;
-    padding: 10px 10px 10px 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
-
-
 
 /* From */
 main form {
-    background-color: #1B1E20;
+    background-color: #0c1821;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 50px;
-    width: 100%;
-
+    padding-top: 25px;
+    padding-bottom: 50px;
+    width: 100%
 }
 
 
@@ -200,6 +199,7 @@ footer {
 
 
 /* Pilot page styling */
+
 
 .cloak-image {
     display: flex;

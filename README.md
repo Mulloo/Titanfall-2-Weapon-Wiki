@@ -24,8 +24,7 @@ Titanfall 2 is a first-person shooter with a rich backstory. This wiki website a
 
 # Bugs
 - Navigation bar covering title in the header   - modify media query
-
-![h1 title covered by nav elements](<nav bar covering header issue.png>)
+![Alt text](<nav bar covering header issue.png>)
 
 - Headers over nav - modify z-index
 ![Alt text](<header elements over nav-1.jpg>)
