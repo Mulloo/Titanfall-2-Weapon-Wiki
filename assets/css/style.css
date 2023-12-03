@@ -128,13 +128,23 @@ main>h2 {
     position: relative;
     z-index: 99;
     display: flex;
-    margin-top: 460px;
+    margin-top: 420px;
     justify-self: center;
+}
+
+main h3 {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    justify-content: center;
+    align-items: center;
 }
 
 .welcome-div {
     height: 250px;
+    padding: 10px 10px 10px 10px;
 }
+
 
 
 /* From */
@@ -154,7 +164,7 @@ main form {
 #l-name,
 #email,
 #password {
-    width: 250px;
+    width: 200px;
     height: 48px;
     margin: 5px 0px 20px 0px;
     border: 1px solid #000000;
@@ -271,6 +281,15 @@ footer {
         font-size: 2rem;
         left: 40%;
     }
+
+    main>h2 {
+        position: relative;
+        z-index: 99;
+        display: flex;
+        margin-top: 460px;
+        justify-self: center;
+    }
+
 
 }
 
