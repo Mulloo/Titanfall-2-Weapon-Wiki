@@ -175,7 +175,7 @@ main form {
 
 /* Footer */
 footer {
-    background-color: #000000;
+    background-color: #4F5D75;
     color: white;
     text-align: center;
     padding: 5px;
@@ -290,12 +290,17 @@ footer {
         justify-self: center;
     }
 
+    .primary-weapon {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        /* !FIX NOT MEDIA FOR ALL UL */
+    }
 
 }
 
 @media screen and (min-height: 1080px) {
     .hero {
         height: 25%;
-
     }
 }
