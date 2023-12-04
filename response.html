@@ -10,14 +10,18 @@
     <meta name="description" content="Titanfall 2 Wiki">
     <!-- Keywords -->
     <meta name="keywords" content="Titanfall 2 Wiki, Tf2, Titan, Fall, Wiki, Tf2 Wiki">
-
+    <!-- Author -->
+    <meta name="Author" content="Daniel Mullooly">
     <!-- Favicon 16-->
     <link rel="icon" sizes="16x16" href="assets\favicon\icons8-titanfall-2-dotted-16.png">
     <link rel="icon" sizes="32x32" href="assets\favicon\icons8-titanfall-2-dotted-32.png">
     <link rel="icon" sizes="96x96" href="assets\favicon\icons8-titanfall-2-dotted-96.png">
     <link rel="icon" sizes="120x120" href="assets\favicon\icons8-titanfall-2-dotted-120.png">
+    <!-- refresh -->
+    <meta http-equiv="refresh" content="10;url=index.html">
     <!-- css page link -->
     <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 
 <body>
@@ -29,13 +33,12 @@
         <input type="checkbox" id="nav-toggle" class="nav-toggle" name="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
         <nav>
-
             <ul class="nav-bar">
                 <li>
-                    <a href="index.html" aria-label="Back to our home page">Home</a>
+                    <a href="index.html" class="active" aria-label="Back to our home page">Home</a>
                 </li>
                 <li>
-                    <a href="pilots.html" class="active"
+                    <a href="pilots.html"
                         aria-label="Go to our Pilots page to learn more about Titanfall 2 Pilots">Pilots</a>
                 </li>
                 <li>
@@ -52,53 +55,35 @@
 
     <!-- Main Content -->
     <main>
+        <!-- Background image -->
         <div class="hero"></div>
-        <h2>Pilots</h2>
-        <p>Pilots are skilled soldiers tasked with piloting the titan mek's. Make no mistake even out side of their
-            Titan
-            they are a forced to be reckoned with each pilot is equipment with a tactical these being Cloak • Pulse
-            Blade •
-            Grapple • Stim • Phase Shift • A-Wall • Holo Pilot </p>
-        <br>
-        <div>
-            <ul class="tacticals">
-                <li>A-Wall</li>
-                <img src="assets/images/awall.webp" alt="Image of the A-Wall tactical.">
-                <p>The A-Wall tactical allows the user to create a wall of energy to protect form incoming projectiles.
-                </p>
-                <hr>
-                <li>Cloak</li>
-                <img src="assets\images\cloak.webp" alt="Image of the Cloak tactical.">
-                <p>The cloak tactical give its pilot the ability to turn near invisible.</p>
-                <hr>
-                <li>Grapple</li>
-                <img src="assets/images/grapple.webp" alt="Image of the Grapple tactical.">
-                <p>The Grapple tactical give its pilot the ability to send out a grappling hook to accelerate there
-                    movement through the fray </p>
-                <hr>
-                <li>Halo Pilot</li>
-                <img src="assets/images/holopilot.webp" alt="Image of the Halo tactical.">
-                <p>The Holo tactical gives the pilot the ability to send a mirror copy of themselves to distract the
-                    enemy</p>
-                <hr>
-                <li>Phase Shift</li>
-                <img src="assets/images/phaseshift.webp" alt="Image of the Phase-shift tactical.">
-                <p>The Phase-shift tactical allows a pilot to Phase into an alternate space and avoid damage.</p>
-                <hr>
-                <li>Pulse Blade</li>
-                <img src="assets/images/pulseblade.webp" alt="Image of the Pulse-blade tactical.">
-                <p>The Pulse Blade tactical is a throwing knife that give the Pilot and their team the ability to see
-                    the outline of enemy's on the map</p>
-                <hr>
-                <li>Stim</li>
-                <img src="assets/images/stim.webp" alt="Image of the stim tactical">
-                <p>The stim tactical gives the pilot double their speed and heals the user after a delay of activation.
-                </p>
-                <hr>
-            </ul>
+        <h2>Home</h2>
+        <hr>
+        <div class="welcome-div">
+            <h3>Welcome</h3>
+            <p>Hello this is a Wiki page form the Pilots, Weapons and Titans of the game Titanfall 2 if there are any
+                issues
+                please let us know by signing up below to get in contact with our admins thank you and enjoy.</p>
+            <hr>
         </div>
-
-
+        <hr>
+        <form class="sign-up" method="post" action="https://formdump.codeinstitute.net">
+            <!-- !FORM REPO AIMAL SHELTER -->
+            <h2>Sign up.</h2>
+            <input type="text" name="f-name" id="f-name" required placeholder="First Name">
+            <input type="text" name="l-name" id="l-name" required placeholder="Last Name">
+            <input type="email" name="email" id="email" required placeholder="Email">
+            <input type="password" name="password" id="password" required placeholder="Password">
+            <input type="submit" class="submit"> <!-- ! BUTTON -->
+        </form>
+        <hr>
+        <!-- button nav -->
+        <div class="nav-gallery">
+            <button onclick="document.location='index.html'"> Top</button>
+            <button onclick="document.location='pilots.html'"> Pilots</button>
+            <button onclick="document.location='weapons.html'"> Weapons</button>
+            <button onclick="document.location='titans'"> Titans</button>
+        </div>
     </main>
 
     <!-- Footer -->
