@@ -72,6 +72,11 @@ nav {
     display: none;
     top: 100%;
     z-index: 999;
+    padding-bottom: 5px;
+}
+
+nav a:hover {
+    border-bottom: 1px solid #d64933;
 }
 
 nav ul>li {
@@ -109,6 +114,11 @@ nav ul>li {
     color: #000;
     border: none;
 }
+
+.nav-gallery button:hover {
+    background-color: #d64933;
+}
+
 
 /* Active nav page */
 .active {
@@ -191,6 +201,13 @@ main form {
 }
 
 
+.submit:hover {
+    background-color: #d64933;
+}
+
+
+
+
 /* Footer */
 footer {
     background-color: #4F5D75;
@@ -207,12 +224,16 @@ footer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 
 .socials-networks>a {
     text-decoration: none;
     color: #ffffff;
+}
+
+.socials-networks a:hover {
+    border-bottom: 1px solid #d64933;
 }
 
 
