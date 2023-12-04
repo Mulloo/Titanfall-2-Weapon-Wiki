@@ -19,5 +19,12 @@
             "addWords": true,
             "scope": "workspace"
         }
-    }
+    },
+    "todo-tree.tree.showBadges": false,
+    "cSpell.ignoreWords": [
+        "Flatline",
+        "Hemlok",
+        "Kraber",
+        "Sideinder"
+    ]
 }

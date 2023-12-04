@@ -51,5 +51,5 @@ all image content created by Respawn Entertainment.
 buttons for gallery nav found in - w3chool
 
 ```html
-<button onclick="document.location='index.html'">Home</button>
+<button onclick="document.location='index.html'">Home<button>
 ```

@@ -216,9 +216,7 @@ footer {
 }
 
 
-/* Pilot page styling */
-
-
+/*  Pilot page styling */
 .cloak-image {
     display: flex;
     height: 50%;
@@ -253,6 +251,8 @@ footer {
 .primary-weapons {
     width: 100%;
     display: flex;
+    max-width: 1200px;
+    /* flex-wrap: wrap; */
     flex-direction: column;
     list-style: none;
     justify-content: center;
@@ -260,27 +260,58 @@ footer {
 }
 
 .secondary-weapons {
+    width: 100%;
     display: flex;
-    display: grid;
+    max-width: 1200px;
+    /* flex-wrap: wrap; */
     flex-direction: column;
     list-style: none;
     justify-content: center;
     align-items: center;
 }
 
+.weapons_container {
+    width: 100%;
+    display: flex;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;
+    justify-content: center;
+    align-items: safe;
+}
+
 .white_line {
     height: 2px;
     width: 100%;
-    background-color: white;
-
+    background-color: #ffffff;
 }
 
 
 /* Titans page styling */
 
-.titans img {
-    height: 50%;
-    width: 50%;
+.titans {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+
+.image_titan_container {
+    display: flex;
+    width: 100%;
+    max-width: 25rem;
+
+
+}
+
+.image_titan_container img {
+    object-fit: contain;
+    width: 100%;
+
 }
 
 
