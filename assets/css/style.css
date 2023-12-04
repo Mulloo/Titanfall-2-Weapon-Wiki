@@ -24,8 +24,7 @@ body {
     display: flex;
     flex-direction: column;
     color: #EEE5E9;
-    margin-bottom: 100%;
-    padding: 0;
+    padding-bottom: 34px;
     font-family: 'Kanit', sans-serif;
 }
 
@@ -97,9 +96,18 @@ nav ul>li {
     color: #ffffff;
 }
 
+.nav-gallery {
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: space-around;
+}
 
-.text-center {
-    text-align: center;
+.nav-gallery button {
+    width: 60px;
+    height: 30px;
+    background-color: #92dce5;
+    color: #000;
+    border: none;
 }
 
 /* Active nav page */
@@ -145,6 +153,8 @@ main h3 {
     height: 250px;
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 /* From */
@@ -170,7 +180,14 @@ main form {
     border: 1px solid #000000;
     border-radius: 2px;
     padding: 5px 5px;
+}
 
+.submit {
+    width: 60px;
+    height: 30px;
+    background-color: #92dce5;
+    color: #000;
+    border: none;
 }
 
 
