@@ -233,9 +233,8 @@ footer {
 }
 
 .socials-networks a:hover {
-    border-bottom: 3px solid #d64933;
+    border-top: 2px solid #d64933;
 }
-
 
 /*  Pilot page styling */
 .pilots_p {
