@@ -31,11 +31,11 @@ Titanfall 2 is a first-person shooter with a rich backstory. This wiki website a
 ![Alt text](<assets/images/nav bar covering header issue.png>)
 
 - Headers over nav - modify z-index
-![Alt text](<assets/images/header elements over nav.jpg>)
-![Alt text](<assets/images/header elements over nav-1.jpg>)
+![Alt text](assets/images/header elements over nav.jpg)
+![Alt text](assets/images/header elements over nav-1.jpg>)
 
 - Hero image too long on portrait monitors media query for minimum height
-![Alt text](<assets/images/portraite cover issue.png>)
+![Alt text](assets/images/portraite cover issue.png)
 
 # Citation
 
