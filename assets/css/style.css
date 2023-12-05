@@ -144,6 +144,12 @@ nav ul>li {
 /* Main */
 main {
     flex: 1;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
 }
 
 /* title for each page positioning */
@@ -268,7 +274,7 @@ footer {
 
 /* Weapons Page Styling */
 .weapons {
-    margin-bottom: 20px;
+    margin-bottom: 2em;
     width: 100%;
     display: flex;
     flex-direction: column;
