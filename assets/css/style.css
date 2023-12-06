@@ -170,11 +170,12 @@ main h3 {
 }
 
 .welcome-div {
-    height: 150px;
+    width: 100%;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 2rem;
     padding-left: 20px;
     padding-right: 20px;
+
 }
 
 /* From */
