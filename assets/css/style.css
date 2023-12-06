@@ -1,7 +1,6 @@
 /*import google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500&display=swap');
 
-
 /* WILDCARD SELECTOR */
 * {
     padding: 0;
@@ -64,7 +63,6 @@ header h1 {
     font-size: 1rem;
 }
 
-
 /* nav styles and dropdown */
 nav {
     position: absolute;
@@ -124,7 +122,6 @@ nav ul>li {
     background-color: #d64933;
 }
 
-
 /* Active nav page */
 .active {
     border-bottom: 1px solid #ffffff;
@@ -142,7 +139,6 @@ nav ul>li {
     background-size: cover;
     background-position: center;
 }
-
 
 /* Main */
 main {
@@ -179,7 +175,6 @@ main h3 {
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
-
 }
 
 /* From */
@@ -194,7 +189,6 @@ main form {
     padding-bottom: 50px;
     width: 100%
 }
-
 
 #f-name,
 #l-name,
@@ -216,13 +210,9 @@ main form {
     border: none;
 }
 
-
 .submit:hover {
     background-color: #d64933;
 }
-
-
-
 
 /* Footer */
 footer {
@@ -334,7 +324,6 @@ footer {
 }
 
 /* Titans page styling */
-
 .titans {
     display: flex;
     width: 100%;
@@ -349,7 +338,6 @@ footer {
 .titans li {
     margin-bottom: 3em;
     text-align: center;
-
 }
 
 .image_titan_container {
@@ -357,8 +345,6 @@ footer {
     display: flex;
     width: 100%;
     max-width: 25rem;
-
-
 }
 
 .image_titan_container img {
@@ -367,9 +353,9 @@ footer {
 
 }
 
-
-/* Media query for phone devices nav-bar 576px and up*/
-@media screen and (min-width:576px) {}
+.response_page {
+    text-align: center;
+}
 
 /* Media query for tablets and larger 900px and up (900 because nav links cover h1 header) */
 @media screen and (min-width: 900px) {
@@ -404,14 +390,6 @@ footer {
         display: flex;
         margin-top: 460px;
         justify-self: center;
-    }
-
-    .primary-weapons {
-        display: grid;
-        flex-direction: row;
-        flex-wrap: wrap;
-
-        /* !FIX NOT MEDIA FOR ALL UL */
     }
 
     .hero {
