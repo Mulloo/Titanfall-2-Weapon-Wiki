@@ -108,6 +108,7 @@ nav ul>li {
 .nav-gallery {
     padding: 10px 10px 20px 10px;
     display: flex;
+    width: 100%;
     justify-content: space-between;
 }
 
@@ -150,7 +151,7 @@ main {
     display: flex;
     width: 100%;
     flex-direction: column;
-    align-items: ;
+    align-items: center;
     justify-content: center;
     padding: 2em;
 }
@@ -184,6 +185,7 @@ main h3 {
 /* From */
 main form {
     background-color: #0c1821;
+    max-width: 20rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -336,14 +338,22 @@ footer {
 .titans {
     display: flex;
     width: 100%;
+    max-width: 1000px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     list-style: none;
+    background-color: #000;
 }
 
+.titans li {
+    margin-bottom: 3em;
+    text-align: center;
+
+}
 
 .image_titan_container {
+    margin: 0 auto;
     display: flex;
     width: 100%;
     max-width: 25rem;
@@ -402,6 +412,10 @@ footer {
         flex-wrap: wrap;
 
         /* !FIX NOT MEDIA FOR ALL UL */
+    }
+
+    .hero {
+        background-position: center;
     }
 
 }
