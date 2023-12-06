@@ -188,7 +188,8 @@ main form {
     align-items: center;
     padding-top: 25px;
     padding-bottom: 50px;
-    width: 100%
+    width: 100%;
+    text-align: center;
 }
 
 #f-name,
@@ -250,22 +251,12 @@ footer {
     padding-bottom: 10px;
 }
 
-.tacticals {
+.tacticals_container {
     display: flex;
     width: 100%;
     flex-direction: column;
-    margin-bottom: 20px;
-    list-style-type: none;
     align-items: center;
-}
-
-.tacticals p {
-    padding: 10px 10px 10px 10px;
-}
-
-.tacticals img {
-    height: 30%;
-    width: 30%;
+    text-align: center;
 }
 
 /* Weapons Page Styling */
@@ -311,7 +302,7 @@ footer {
     align-items: start;
 }
 
-.weapons_container_iteam {
+.weapons_container_item {
     width: 15rem;
     display: flex;
     flex-direction: column;
