@@ -6,15 +6,15 @@ The site can be accessed with the following link [Titanfall 2 Wiki](https://mull
 
 ## User Experience
 
+### User Stories
+
+### Design
+
 ## Target Audience
 
 - Users looking for information on the weapons of Titanfall 2.
 - Users that are looking to discuss Titanfall 2.
 - Users that are looking to compare the stats of Titanfall 2 Weapons
-
-## User Stories
-
-## Design
 
 ## Features
 
@@ -57,11 +57,11 @@ The site can be accessed with the following link [Titanfall 2 Wiki](https://mull
 
 - Navigation bar covering title in the header   - modify media query
 
-![Alt text](<assets/images/nav bar covering header issue.png>)
+![Alt text](assets/images/nav bar covering header issue.png)
 
 - Headers over nav - modify z-index
-![Alt text](assets/images/header elements over nav.jpg)
-![Alt text](assets/images/header elements over nav-1.jpg>)
+
+![Alt text](doc/header_elements_over_nav_2.jpg)
 
 - Hero image too long on portrait monitors media query for minimum height
 ![Alt text](assets/images/portraite cover issue.png)
