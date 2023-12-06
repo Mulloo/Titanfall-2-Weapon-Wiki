@@ -108,7 +108,7 @@ nav ul>li {
 .nav-gallery {
     padding: 10px 10px 20px 10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .nav-gallery button {
@@ -150,7 +150,7 @@ main {
     display: flex;
     width: 100%;
     flex-direction: column;
-    align-items: center;
+    align-items: ;
     justify-content: center;
     padding: 2em;
 }
@@ -186,7 +186,7 @@ main form {
     background-color: #0c1821;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     padding-top: 25px;
     padding-bottom: 50px;
