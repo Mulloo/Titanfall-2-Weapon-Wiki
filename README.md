@@ -93,7 +93,13 @@ The site can be accessed with the following link [Titanfall 2 Wiki](https://mull
 ### Validator Testing
 
 - HTML
-  - No error was shown when the HTML was passed through the official [w3c HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmulloo.github.io%2FTitanfall-2-Weapon-Wiki%2F)  
+  - No error was shown when the index.html was passed through the official [Home Validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmulloo.github.io%2FTitanfall-2-Weapon-Wiki%2F)  
+
+  - No error was shown when the pilot.html was passed through the official [Pilot Validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmulloo.github.io%2FTitanfall-2-Weapon-Wiki%2Fpilots.html)
+  
+  - No error was shown when the weapons.html was passed through the official [Weapons Validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmulloo.github.io%2FTitanfall-2-Weapon-Wiki%2Fweapons.html)
+  
+  - No error was shown when the titans.html was passed through the official [Titans Validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmulloo.github.io%2FTitanfall-2-Weapon-Wiki%2Ftitans.html)
 
 - CSS
   - No errors are shown when the CSS was passed through the official [w3c CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmulloo.github.io%2FTitanfall-2-Weapon-Wiki%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
