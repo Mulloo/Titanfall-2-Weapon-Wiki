@@ -4,11 +4,38 @@ Titanfall 2 is a first-person shooter with a rich backstory. This wiki website a
 
 The site can be accessed with the following link [Titanfall 2 Wiki](https://mulloo.github.io/Titanfall-2-Weapon-Wiki/)
 
-## User Experience
+## User Stories
 
-### User Stories
+### First Time Goals
 
-### Design
+- As a First time user, I want to find a comprehensive overview of the information on Titanfall 2.
+- As a First time user, I want to be able to navigate through the pages quickly.
+- As a First time user, I want to find the information I am looking for.
+
+### Returning User Goals
+
+- As a returning user, I want to learn what weapons are stronger than one another.
+- As a returning user, I want to join the discussion on this topic and be involved.
+- As a returning user, I want to receive notifications or updates about any community events or discussions.
+
+## Technologies Used
+
+- [HTML](https://www.w3schools.com/html/) used as the foundation of the site.
+- [CSS](https://www.w3schools.com/Css/) used to add style and layout of the site.
+- [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) used to arrange items on the page.
+- [VSCode](https://code.visualstudio.com/) used as the IDE for writing and editing code.
+- [Git](https://git-scm.com/) used as a version control.
+- [GitHub](https://github.com/) used to store the repository and deploy the sites.
+
+## Design
+
+### Color Scheme
+
+![Pallet colors](doc/pallet.png)
+
+- A darker color scheme is used to try to keep in line with the imagery of the game.
+- A bright blue is used for button elements to make them easy to see.
+- A bright orange is used to show the items being hovered over by the user's cursors.
 
 ## Target Audience
 
@@ -23,19 +50,19 @@ The site can be accessed with the following link [Titanfall 2 Wiki](https://mull
 ### Navigation Bar
 
 - The responsive navigation bar is implemented on all four pages including the title of the website and the links to Home, Pilots, Weapons and Titan.
-- This feature will make the navigation of the site on both mobile or larger screen devices an easy task to accomplish.
+- This feature will make the navigation of the site on both mobile and larger screen devices an easy task to accomplish.
   
 ![nav-bar mobile](doc/nav-bar.png)
 ![nav-bar desktop](doc/nav-bar-long.png)
 
 ### Navigation Gallery
 
-- The navigation button style gallery is for the ease of the user. Most of the pages are full of content this is an easy method for the user to get from page to page and return the the top of each individual page as necessary.
+- The navigation button style gallery is for the ease of the user. Most of the pages are full of content this is an easy method for the user to get from page to page and return the the top of each page as necessary.
 
 ![nav-gallery-mobile](doc/nav-gallery-mobile.png)
 ![nav-gallery-desktop](doc/nav-gallery-desktop.png)
 
-### Hero Image
+## Hero Image
 
 ![Hero image](doc/heroimage.webp)
 
@@ -43,15 +70,15 @@ The site can be accessed with the following link [Titanfall 2 Wiki](https://mull
 
 - It also grabs the user's attention and keeps them engaged in the site.
 
-### Form
+## Form
 
 - The form section gives the user the ability to join the community of Titanfall 2 players.
 
 ![Form section](doc/form.png)
 
-### Footer
+## Footer
 
-- The footer has the social media links available for the user. These links will open in new tabs for the user's ease of use.
+- The footer has social media links available for the user. These links will open in new tabs for the user's ease of use.
 
 - This will allow the user to stay in contact with the community of the site.
 
@@ -59,7 +86,7 @@ The site can be accessed with the following link [Titanfall 2 Wiki](https://mull
 
 ## Features Not Implemented
 
-- Titan page paragraphs as a table: not implemented due to time constraint.
+- Titan page paragraphs as a table: not implemented due to time constraints.
 
 ## Testing
 
@@ -69,7 +96,7 @@ The site can be accessed with the following link [Titanfall 2 Wiki](https://mull
   - No error was shown when the HTML was passed through the official [w3c HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmulloo.github.io%2FTitanfall-2-Weapon-Wiki%2F)  
 
 - CSS
-  - No errors shown when the CSS was passed through the official [w3c CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmulloo.github.io%2FTitanfall-2-Weapon-Wiki%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+  - No errors are shown when the CSS was passed through the official [w3c CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmulloo.github.io%2FTitanfall-2-Weapon-Wiki%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ## Manual testing
 
@@ -102,17 +129,21 @@ The site can be accessed with the following link [Titanfall 2 Wiki](https://mull
 
 ### Solved Bugs
 
+- The Navigation bar covering the title in the header is fixed by changing the media query px size.
+
 ![header bug](doc/nav_bar_covering_header_issue.png)
 
-- Navigation bar covering title in the header fixed by change the media query px size.
+- Headings showing up over the nav menu are fixed by changing the z-index in CSS.
 
-- Headings showing up over nav menu fixed by changing the z-index in css.
 ![headings bug](doc/header_elements_over_nav_2.jpg)
 
 - Hero image too long on portrait monitors media query for minimum height added.
-![hero image covering tacticals](doc/portraite_cover_issue.png)
 
-- Welcome div text moving behind the form background color removed div height![text covered buy a form](doc/welcome_div_text_behind_form.png)
+![hero image covering tactical](doc/portraite_cover_issue.png)
+
+- Welcome div text moving behind the form background color removed div height
+
+- ![text covered by the form](doc/welcome_div_text_behind_form.png)
 
 ### Unsolved Bugs
 
@@ -121,29 +152,39 @@ The site can be accessed with the following link [Titanfall 2 Wiki](https://mull
 ### Mistakes
 
 - Some commit messages used the wrong prefix ie(fix: add: change:)
-- Unordered lists were originally used for the titan pilot and weapons pages and leaving little room for adaptability later in development.
+- Unordered lists were originally used for the Titan pilot and weapons pages leaving little room for adaptability later in development.
 
 ## Lighthouse report
 
 ### Home
 
 - Lighthouse Home page mobile
+
 ![lighthouse report](doc/light_house_mobile_home.png)
 
 - Lighthouse Home page desktop report
+
 ![Alt text](doc/light_house_desktop_home.png)
 
 ### Pilots
 
-- Lighthouse Pilots page mobile![lighthouse report](doc/light_house_mobile_pilots.png)
+- Lighthouse Pilots page mobile
 
-- Lighthouse Pilots page desktop report![lighthouse report](doc/light_house_desktop_pilots.png)
+- ![lighthouse report](doc/light_house_mobile_pilots.png)
+
+- Lighthouse Pilots page desktop report
+
+- ![lighthouse report](doc/light_house_desktop_pilots.png)
 
 ### Weapons
 
-- Lighthouse Weapons page mobile report![lighthouse report](doc/light_house_mobile_weapons.png)
+- Lighthouse Weapons page mobile report
 
-- Lighthouse Weapons page desktop report![lighthouse report](doc/light_house_mobile_weapons.png)
+- ![lighthouse report](doc/light_house_mobile_weapons.png)
+
+- Lighthouse Weapons page desktop report
+
+![lighthouse report](doc/light_house_mobile_weapons.png)
 
 ### Titans
 
@@ -170,10 +211,10 @@ This deployment method ensures that the most recent version of your project on t
 ### Content
 
 - The toggle navigation menu was implemented from the [Love Running project](https://github.com/Code-Institute-Solutions/love-running-v3/tree/main)
-- Footer Social Icons were taking from [Font Awesome](https://fontawesome.com/)
+- Footer Social Icons were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
 
-[Alphacoders](https://wall.alphacoders.com/big.php?i=519153) Source for the hero image image owned and created by Respawn Entertainment.
+[Alphacoders](https://wall.alphacoders.com/big.php?i=519153) Source for the hero image owned and created by Respawn Entertainment.
 
-All other images Sourced form [Titanfall 2 fandom](https://titanfall2.fandom.com/wiki/Titanfall_2_Wiki) all images created by Respawn Entertainment.
+All other images are Sourced from [Titanfall 2 fandom](https://titanfall2.fandom.com/wiki/Titanfall_2_Wiki) all images created by Respawn Entertainment.
