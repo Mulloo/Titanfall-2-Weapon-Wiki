@@ -135,19 +135,23 @@ The site can be accessed with the following link [Titanfall 2 Wiki](https://mull
 
 ### Solved Bugs
 
-- The Navigation bar covering the title in the header is fixed by changing the media query px size.
+- The Navigation bar covers the title in the header.
+  - Fixed by changing the media query px size.
 
 ![header bug](doc/nav_bar_covering_header_issue.png)
 
-- Headings showing up over the nav menu are fixed by changing the z-index in CSS.
+- Headings are shown over the nav menu.
+  - Fixed by changing the z-index in CSS.
 
 ![headings bug](doc/header_elements_over_nav_2.jpg)
 
-- Hero image too long on portrait monitors media query for minimum height added.
+- Hero image was too long on portrait monitors.
+  - Solved media query for minimum height added.
 
 ![hero image covering tactical](doc/portraite_cover_issue.png)
 
-- Welcome div text moving behind the form background color removed div height
+- Welcome div text moving behind the form background color.
+  - Solved by removing the div height
 
 - ![text covered by the form](doc/welcome_div_text_behind_form.png)
 
